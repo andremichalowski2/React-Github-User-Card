@@ -40,7 +40,7 @@ Commit your code regularly and meaningfully. This helps both you and your team l
 
       2A.2:
 
-      [ ] - **App.js**
+      [x] - **App.js**
       Class Component (CC)
           Constructor 
               State
@@ -55,26 +55,26 @@ Commit your code regularly and meaningfully. This helps both you and your team l
               User Card
               Friends
 
-      [ ] - *UserCard*
+      [x] - *UserCard*
           CC
               R/R
                   cardHeader
                   cardBody
 
-      [ ] - `cardHeader`
+      [x] - `cardHeader`
           CC
               R/R
                   props.name
                   props.image
                   ?props.other?
-      [ ] - `cardBody`
+      [x] - `cardBody`
           CC
               R/R
                   props.github
                   *props.email
                   **props.followers
                   ?props.other?
-      [ ] - *Friends*
+      [x] - *Friends*
           CC
               R/R
                   props.name
@@ -87,7 +87,7 @@ Commit your code regularly and meaningfully. This helps both you and your team l
           [x] - Imports
           [x] - Render components
           [x] - Props
-          [ ] - '.map' statements etc.
+          [x] - '.map' statements etc.
 
     #### [x] Task 2B.1: Fetch the User Data
 
@@ -122,12 +122,6 @@ Once you begin, you will have 15 minutes to answer the questions [here](https://
 
 The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability without using external references.
 
-### Pull Request and Retrospective
-
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete by merging the branch back into master.
-- [ ] Retrospective: https://forms.lambdaschool.com/module-retrospective
 
 ### Task 4: Stretch Problems
 
@@ -143,3 +137,10 @@ https://help.github.com/en/github/authenticating-to-github/creating-a-personal-a
 
 Token:
 https://developer.github.com/v3/auth/#basic-authentication
+
+### Task 5: Pull Request and Retrospective
+
+- [x] Clean-up
+- [x] Review
+- [x] Submission
+- [x] Retrospective: https://forms.lambdaschool.com/module-retrospective
