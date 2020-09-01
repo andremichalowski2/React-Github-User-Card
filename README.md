@@ -39,7 +39,7 @@ Commit your code regularly and meaningfully. This helps both you and your team l
     When you have those completed, you're ready to start coding!
 
       2A.2:
-      
+
       [ ] - **App.js**
       Class Component (CC)
           Constructor 
@@ -81,11 +81,25 @@ Commit your code regularly and meaningfully. This helps both you and your team l
                   props.image
                   props.github
 
-    #### [] Task 2B: Fetch the User Data
+      [x] - Structure
+      [x] - State and Axios
+      [ ] - Rendering 
+          [x] - Imports
+          [x] - Render components
+          [ ] - Props
+          [ ] - '.map' statements etc.
+
+    #### [x] Task 2B.1: Fetch the User Data
 
     - When your component mounts, send a GET request to the following URL (replacing the placeholder with your Github name):
       - https://api.github.com/users/<your name>
     - After you fetch your data, set it to state
+
+      #### [x] Task 2B.2: Fetch the User's Followers
+
+      - When your component mounts, you will also fetch the user's followers using this endpoint:
+        https://api.github.com/users/< Your github name >/followers
+      - Set that data to state as well, and display the data in your app
 
     #### [] Task 2C: Display the User Data
 
@@ -93,11 +107,6 @@ Commit your code regularly and meaningfully. This helps both you and your team l
     - Build out a user card using the data that the Github API returns to you
       - You may reference your old project for this, or you may wish to build this from scratch yourself
 
-    #### [] Task 2D: Fetch the User's Followers
-
-    - When your component mounts, you will also fetch the user's followers using this endpoint:
-      https://api.github.com/users/< Your github name >/followers
-    - Set that data to state as well, and display the data in your app
 
     #### [] Task 2E: Style the User Card
 
