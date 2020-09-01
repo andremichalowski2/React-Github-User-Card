@@ -108,14 +108,14 @@ Commit your code regularly and meaningfully. This helps both you and your team l
       - You may reference your old project for this, or you may wish to build this from scratch yourself
 
 
-    #### [] Task 2E: Style the User Card
+    #### [x] Task 2D: Style the User Card
 
     - Now it's time to style up your app
     - You are free to choose how you style your app, but make it look as presentable as you can
     - Try something new here. Maybe that's a new CSS technique you haven't really practiced yet. Maybe it's using a styling library you haven't tried. Push yourself to get better in this area.
 
 
-### Task 3: Exit Ticket
+### [ ] Task 3: Exit Ticket
 
 Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/z2P39aAiiwdSM7XHu/LLXYAwYAzh6FXK).
 

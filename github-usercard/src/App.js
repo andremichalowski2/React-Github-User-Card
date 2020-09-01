@@ -1,10 +1,36 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-import './App.css';
-
 import UserCard from './Components/UserCard';
 import FollowersInfo from './Components/FollowersInfo';
+
+import './App.css';
+import styled from 'styled-components'
+
+const AppContainer = styled.div`
+  font-size: 1rem;
+  max-width: 80%;
+  max-width: 450px;
+  min-width: 450px;
+  padding: 5% 15%;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: stretch;
+  background-color: white;
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+  white-space: nowrap;
+`;
+
+const Title = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+`;
 class App extends Component {
   constructor() {
     super()
@@ -54,14 +80,16 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <h1>REACT GITHUB USER CARD </h1>
-          <UserCard {...this.state.gitUser} />
-          <FollowersInfo
-            followers={this.state.followers}
-            loginChange={this.loginChange}
-          />
-      </div>
+      <AppContainer>
+        <Title>
+          <h1>REACT GITHUB USER CARD </h1>
+        </Title>
+        <UserCard {...this.state.gitUser} />
+        <FollowersInfo
+          followers={this.state.followers}
+          loginChange={this.loginChange}
+        />
+      </AppContainer>
     );
   }
 }
