@@ -1,7 +1,4 @@
 [build]
-functions = "functions"
-publish = "build"
-[[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+  command = "npm run build"
+  publish="/build"
+  base = "github-usercard"
