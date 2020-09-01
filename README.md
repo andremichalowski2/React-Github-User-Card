@@ -20,9 +20,9 @@ Commit your code regularly and meaningfully. This helps both you and your team l
 - [x] Push commits: git push origin `<firstName-lastName>`.
 
 ### Task 1B: Project Set Up
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Use CRA to create a new React app in this repository
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Add your team lead as collaborator on Github.
+- [x] Use CRA to create a new React app in this repository
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 
 ### Task 2: Minimum Viable Product
 
@@ -74,7 +74,7 @@ The completion of these questions is mandatory for MVP. However, passing the qui
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master.
-- [ ] Retrospective
+- [ ] Retrospective: https://forms.lambdaschool.com/module-retrospective
 
 ### Task 4: Stretch Problems
 
