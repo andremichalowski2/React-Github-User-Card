@@ -44,6 +44,11 @@ class App extends Component {
       })
   }
 
+  componentDidMount() {
+    this.getUser();
+  }
+  
+
   render() {
     return (
       <div className="App">
