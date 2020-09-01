@@ -73,6 +73,14 @@ class App extends Component {
     this.getUser();
   }
 
+  componentDidUpdate(prevProps, prevState) {
+    if(prevState.username !== this.state.username) {
+      this.getUser();
+    } else {
+      return
+    }
+  }
+
   loginChange = username => {
     this.setState({ username });
   };
@@ -84,7 +92,7 @@ class App extends Component {
         <Title>
           <h1>REACT GITHUB USER CARD </h1>
         </Title>
-        <UserCard {...this.state.gitUser} />
+        <UserCard {...this.state.githubUser} />
         <FollowersInfo
           followers={this.state.followers}
           loginChange={this.loginChange}

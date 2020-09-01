@@ -26,15 +26,15 @@ const UserImg = styled.img `
 class CardHeader extends Component {
     render () {
         return (
-        <Card>
-          <UserImg src={this.props.image} alt='User Card' />
-          <TextTop>
-              <div>Name: {this.props.name}</div>
-          </TextTop>
-          <Text>
-              <div>User-Name: {this.props.login}</div>
-          </Text>
-        </Card>
+          <Card>
+            <UserImg src={this.props.image} alt='User Card' />
+            <TextTop>
+                <div>Name: {this.props.name}</div>
+            </TextTop>
+            <Text>
+                <div>User-Name: {this.props.login}</div>
+            </Text>
+          </Card>
         )
     }
 }
