@@ -8,7 +8,6 @@ import FollowersInfo from './Components/FollowersInfo';
 class App extends Component {
   constructor() {
     super()
-
     this.state = {
       username: 'andremichalowski',
       githubUser: {},
@@ -52,8 +51,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <UserCard />
-        <FollowersInfo />
+        <h1>React Github User Card</h1>
+        <div>Test {this.props.name}</div>
+          <UserCard />
+          <FollowersInfo />
       </div>
     );
   }
