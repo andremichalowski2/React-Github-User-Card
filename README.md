@@ -115,7 +115,8 @@ Commit your code regularly and meaningfully. This helps both you and your team l
     - Try something new here. Maybe that's a new CSS technique you haven't really practiced yet. Maybe it's using a styling library you haven't tried. Push yourself to get better in this area.
 
 
-### [ ] Task 3: Exit Ticket
+### [x] Task 3: Exit Ticket
+  - [x] (Completed Sept 1st 2020 11:48AM)
 
 Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/z2P39aAiiwdSM7XHu/LLXYAwYAzh6FXK).
 
