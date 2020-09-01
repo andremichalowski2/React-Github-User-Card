@@ -83,10 +83,10 @@ Commit your code regularly and meaningfully. This helps both you and your team l
 
       [x] - Structure
       [x] - State and Axios
-      [ ] - Rendering 
+      [x] - Rendering 
           [x] - Imports
           [x] - Render components
-          [ ] - Props
+          [x] - Props
           [ ] - '.map' statements etc.
 
     #### [x] Task 2B.1: Fetch the User Data
@@ -101,7 +101,7 @@ Commit your code regularly and meaningfully. This helps both you and your team l
         https://api.github.com/users/< Your github name >/followers
       - Set that data to state as well, and display the data in your app
 
-    #### [] Task 2C: Display the User Data
+    #### [x] Task 2C: Display the User Data
 
     - Pass the data to the component that will be displaying it
     - Build out a user card using the data that the Github API returns to you

@@ -46,15 +46,21 @@ class App extends Component {
   componentDidMount() {
     this.getUser();
   }
+
+  loginChange = username => {
+    this.setState({ username });
+  };
   
 
   render() {
     return (
       <div className="App">
-        <h1>React Github User Card</h1>
-        <div>Test {this.props.name}</div>
-          <UserCard />
-          <FollowersInfo />
+        <h1>REACT GITHUB USER CARD </h1>
+          <UserCard {...this.state.gitUser} />
+          <FollowersInfo
+            followers={this.state.followers}
+            loginChange={this.loginChange}
+          />
       </div>
     );
   }
