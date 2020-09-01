@@ -38,9 +38,52 @@ Commit your code regularly and meaningfully. This helps both you and your team l
 
     When you have those completed, you're ready to start coding!
 
+      2A.2:
+      
+      [ ] - **App.js**
+      Class Component (CC)
+          Constructor 
+              State
+              Axios Calls
+                  User
+                  Friends
+              React Timeline
+                  didMount
+                  didUpdate
+                  didUnMount
+          Render/Return (R/R)
+              User Card
+              Friends
+
+      [ ] - *UserCard*
+          CC
+              R/R
+                  cardHeader
+                  cardBody
+
+      [ ] - `cardHeader`
+          CC
+              R/R
+                  props.name
+                  props.image
+                  ?props.other?
+      [ ] - `cardBody`
+          CC
+              R/R
+                  props.github
+                  *props.email
+                  **props.followers
+                  ?props.other?
+      [ ] - *Friends*
+          CC
+              R/R
+                  props.name
+                  props.image
+                  props.github
+
     #### [] Task 2B: Fetch the User Data
 
-    - When your component mounts, send a GET request to the following URL (replacing the palceholder with your Github name):
+    - When your component mounts, send a GET request to the following URL (replacing the placeholder with your Github name):
       - https://api.github.com/users/<your name>
     - After you fetch your data, set it to state
 
@@ -80,7 +123,7 @@ The completion of these questions is mandatory for MVP. However, passing the qui
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-- Build a form that allows you to search for different Github users. When the form is submitted, use `componentDidUpdate` to fetch the data for the user you typed in. Set that new user's data to state to trigger the component to rerender and display your new user. Don't forget to fetch their followers as well.
+- Build a form that allows you to search for different Github users. When the form is submitted, use `componentDidUpdate` to fetch the data for the user you typed in. Set that new user's data to state to trigger the component to re-render and display your new user. Don't forget to fetch their followers as well.
 
 - Look into adding your GitHub contribution graph. There are a number of different ways of doing this, this Stack Overflow discussion will get you started: https://stackoverflow.com/questions/34516592/embed-github-contributions-graph-in-website
 
