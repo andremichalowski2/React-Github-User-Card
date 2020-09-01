@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+import UserCard from './Components/UserCard';
+import FollowersInfo from './Components/FollowersInfo';
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <UserCard />
+        <FollowersInfo />
+      </div>
+    );
+  }
 }
 
 export default App;
